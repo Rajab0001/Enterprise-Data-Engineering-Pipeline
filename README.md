@@ -72,3 +72,5 @@ FROM Daily_Operations_Log t
 INNER JOIN Staff_Roster s ON t.Employee_ID = s.Employee_ID
 INNER JOIN Company_Inventory i ON t.Item_ID = i.Item_ID;
 
+## Executive Dashboard Interface
+![Live Power BI Performance Dashboard](dashboard_screenshot.png)
